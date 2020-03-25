@@ -6,36 +6,46 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <center><h1>Dairy Milk</h1></center>
 </head>
 <body>
   <app-root></app-root>
   <div class="row">
     <div class="column">
-      <img src="C:\Users\User\imagehandlng\img\src\assets\dm1.jpg">
-      <img src="C:\Users\User\imagehandlng\img\src\assets\dm2.jpg">
-      <img src="C:\Users\User\imagehandlng\img\src\assets\dm3.jpg">
-      <img src="C:\Users\User\imagehandlng\img\src\assets\dm4.jpg">
-      <img src="C:\Users\User\imagehandlng\img\src\assets\dm5.jpg">
-      <img src="C:\Users\User\imagehandlng\img\src\assets\dm6.jpg">
-      <img src="C:\Users\User\imagehandlng\img\src\assets\dm7.jpg">
-    </div>
-    <div class="column">
-      <img src="C:\Users\User\imagehandlng\img\src\assets\dm8.jpg">
-      <img src="C:\Users\User\imagehandlng\img\src\assets\dm9.jpg">
-      <img src="C:\Users\User\imagehandlng\img\src\assets\dm10.jpg">
+      <img src="C:\Users\User\imagehandlng\img\src\assets\dm1.jpg" alt="Almond roast" onclick="myFunction(this);">
       <img src="C:\Users\User\imagehandlng\img\src\assets\dm15.jpg">
-      <img src="C:\Users\User\imagehandlng\img\src\assets\dm4.jpg">
-      <img src="C:\Users\User\imagehandlng\img\src\assets\dm16.jpg">
-    </div>
-    <div class="column">
-      <img src="C:\Users\User\imagehandlng\img\src\assets\dm1.jpg">
-      <img src="C:\Users\User\imagehandlng\img\src\assets\dm15.jpg">
-      <img src="C:\Users\User\imagehandlng\img\src\assets\dm14.jpg">
-      <img src="C:\Users\User\imagehandlng\img\src\assets\dm11.jpg">
-      <img src="C:\Users\User\imagehandlng\img\src\assets\dm12.jpg">
       <img src="C:\Users\User\imagehandlng\img\src\assets\dm13.jpg">
-      <img src="C:\Users\User\imagehandlng\img\src\assets\dm8.jpg">
+      <img src="C:\Users\User\imagehandlng\img\src\assets\dm15.jpg">
+      <img src="C:\Users\User\imagehandlng\img\src\assets\dm13.jpg">
+      <img src="C:\Users\User\imagehandlng\img\src\assets\dm1.jpg">
+     
     </div>
+    <div class="column">
+      <center>
+      <img src="C:\Users\User\imagehandlng\img\src\assets\dm14.jpg">
+    </center>
+    </div>
+    <div class="column">
+      <img src="C:\Users\User\imagehandlng\img\src\assets\dm1.jpg">
+      <img src="C:\Users\User\imagehandlng\img\src\assets\dm15.jpg">
+      <img src="C:\Users\User\imagehandlng\img\src\assets\dm13.jpg">
+      <img src="C:\Users\User\imagehandlng\img\src\assets\dm15.jpg">
+      <img src="C:\Users\User\imagehandlng\img\src\assets\dm13.jpg">
+      <img src="C:\Users\User\imagehandlng\img\src\assets\dm1.jpg">
+     
+    </div>
+
+    <!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
     
   <button onclick="one()">1</button>
 <button onclick="two()">2</button>
